@@ -1,0 +1,58 @@
+	
+<?php
+
+class Airplane{
+public $make;
+public $model;
+public function parts($wings, $fuselage, $landing_gear){
+$this->wings = $wings;
+$this->fuselage = $fuselage;
+$this->landing_gear = $landing_gear;
+}
+public function details($width, $height, $length){
+}
+public function engine(){
+$horsepower = "46,000 HP";
+$cylinders = "6";
+$Fuel = "Jet Fuel";
+}
+
+public $big_capacity;
+
+}
+
+class Turkish_Airlines extends Airplane {
+public $make;
+public $model;
+public $colors;
+
+$Turkish_Airlines->make = "industry";
+$Turkish_Airlines->model = "Airbus A330-300";
+$Turkish_Airlines->colors = "Cobalt Blue, Lust";
+}
+
+class Jet extends Airplane {
+public $make;
+public $model;
+public function parts($wings, $fuselage, $landing_gear){
+$this->wings = $wings;
+$this->fuselage = $fuselage;
+$this->landing_gear = $landing_gear;
+}
+public function details($width, $height, $length){
+}
+public function engine(){
+$horsepower = "95,710 HP";
+$cylinders = "6";
+$Fuel = "Jet Fuel";
+}
+
+public $big_capacity;
+
+}
+
+$Airplane->public $big_capacity; = true;
+
+$Jet->big_capacity = false;
+
+?>
