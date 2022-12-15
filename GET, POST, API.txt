@@ -1,7 +1,0 @@
-$ourJson = ‘{“GET”:{“Array1”:”wings”, “Array2”:”fuselage”, “Array3”:”landing_gear”}, “API”:{“Array4”:”width”, “Array5”:”height”, “Array6”:”length”, “Array7”:”engine”}, “POST” {“Array8”:”big_capacity”}  }’;
-
-$Airplane = json_encode($ourJson,1);
-
-print_r($Airplane);
-
-Array ( [GET] => Array ( [Array1] => wings [Array2] => fuselage [Array3] => landing_gear) [API] => Array ( [Array4] => width [Array5] => height [Array6] => length [Array7] => engine) [POST] => Array ( [Array8] => big_capacity ) )
