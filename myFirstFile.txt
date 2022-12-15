@@ -1,0 +1,29 @@
+<?php
+
+class User {
+  public $name;
+  public $email;
+  public $password;
+  public $age;
+
+  public function __construct($name, $email, $password, $age) {
+    $this->name = $name;
+    $this->email = $email;
+    $this->password = $password;
+    $this->age = $age;
+  }
+
+  public function updatePassword($new_password) {
+    $this->password = $new_password;
+  }
+
+  public function updateEmail($new_email) {
+    $this->email = $new_email;
+  }
+
+  public function updateAge($new_age) {
+    $this->age = $new_age;
+  }
+}
+
+?>
