@@ -1,5 +1,7 @@
 <?php
 
+include "myFirstFile.txt";
+
 // Connect to the database
 $cnx = new PDO('mysql:host=localhost;dbname=my_database', 'root', 'password');
 
